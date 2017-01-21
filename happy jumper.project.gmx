@@ -16,6 +16,7 @@
       <script>scripts\guiSize.gml</script>
       <script>scripts\shadowText.gml</script>
     </scripts>
+    <script>scripts\scoreLoad.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Controllers">
