@@ -31,6 +31,8 @@
       <script>scripts\jumperInit.gml</script>
       <script>scripts\jumpInit.gml</script>
     </scripts>
+    <script>scripts\scoreStep.gml</script>
+    <script>scripts\scoreInit.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\ftGB</font>
