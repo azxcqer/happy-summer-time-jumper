@@ -5,8 +5,17 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spBeach</sprite>
+    <sprite>sprites\sPlayer</sprite>
+    <sprite>sprites\sPlayer_up</sprite>
+    <sprite>sprites\sPlayer_down</sprite>
+    <sprite>sprites\spWave</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_temp</background>
+    <background>background\bgBeach</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Engine">
@@ -15,21 +24,38 @@
       <script>scripts\backgrounder.gml</script>
       <script>scripts\guiSize.gml</script>
       <script>scripts\shadowText.gml</script>
+      <script>scripts\scoreLoad.gml</script>
     </scripts>
-    <script>scripts\scoreLoad.gml</script>
+    <scripts name="Jump">
+      <script>scripts\jump.gml</script>
+      <script>scripts\jumperInit.gml</script>
+      <script>scripts\jumpInit.gml</script>
+    </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\ftGB</font>
+  </fonts>
   <objects name="objects">
     <objects name="Controllers">
       <object>objects\ctSplash</object>
       <object>objects\ctMenu</object>
       <object>objects\ctMain</object>
     </objects>
+    <object>objects\oPlayer</object>
+    <object>objects\oBeach</object>
+    <object>objects\oWaveMaker</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rSplash</room>
     <room>rooms\rMenu</room>
     <room>rooms\rGame</room>
   </rooms>
+  <constants number="4">
+    <constant name="color1">$9bbc0f</constant>
+    <constant name="color2">$8bac0f</constant>
+    <constant name="color3">$306230</constant>
+    <constant name="color4">$0f380f</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>

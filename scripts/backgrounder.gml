@@ -1,7 +1,7 @@
 ///backgrounder()
 //variables
 //the default BG. needs to be set to the sprite
-defBG = bgTemp
+defBG = bgBeach
 //if the background should be tiled. 0 = no, 1 = vertical, 2 = horizontal, 3 = both
 tile = 3
 
