@@ -46,6 +46,7 @@
     <object>objects\oPlayer</object>
     <object>objects\oBeach</object>
     <object>objects\oWaveMaker</object>
+    <object>objects\oWave</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rSplash</room>
