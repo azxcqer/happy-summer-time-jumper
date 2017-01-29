@@ -1,6 +1,7 @@
 switch jumpState {
     case JumpStates.idle :
         y = jumpStart
+        jumpDouble = true
         if keyboard_check_pressed(vk_space){
             jumpState = JumpStates.jumping
         }
@@ -18,6 +19,13 @@ switch jumpState {
         vspeed = jumpSpeed
         if y >= jumpStart {
             jumpState = JumpStates.idle
+        }
+        
+        if keyboard_check(vk_space){
+            if jumpDouble {
+                jumpState = JumpStates.jumping
+                jumpDouble = false
+            }
         }
     break
 }
