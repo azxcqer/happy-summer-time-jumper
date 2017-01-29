@@ -30,6 +30,7 @@
       <script>scripts\jump.gml</script>
       <script>scripts\jumperInit.gml</script>
       <script>scripts\jumpInit.gml</script>
+      <script>scripts\jumpAnim.gml</script>
     </scripts>
     <script>scripts\scoreStep.gml</script>
     <script>scripts\scoreInit.gml</script>
