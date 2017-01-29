@@ -48,6 +48,7 @@
     <object>objects\oBeach</object>
     <object>objects\oWaveMaker</object>
     <object>objects\oWave</object>
+    <object>objects\cMovers</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rSplash</room>
