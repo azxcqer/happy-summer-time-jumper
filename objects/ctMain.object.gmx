@@ -257,9 +257,7 @@ draw_text(guiWidth, 0, "HI " + string(highscore) + "#" + string(score))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///other drawings
-/*
-switch global.gamestate{
+            <string>switch global.gamestate{
     case GameState.ended:
         setAligns(1,1)
         draw_text(guiWidth/2, guiHeight/2, "GAME OVER!#Press SPACE to restart#or I to return #to the main menu")
