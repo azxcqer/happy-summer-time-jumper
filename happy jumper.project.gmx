@@ -13,8 +13,8 @@
     <sprite>sprites\spWave</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bg_temp</background>
     <background>background\bgBeach</background>
+    <background>background\bgTemp</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
