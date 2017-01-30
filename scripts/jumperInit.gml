@@ -1,7 +1,8 @@
 canJump = true
 jumpState = JumpStates.idle
-jumpSpeed = 0.95
+jumpSpeed = 1.25
 jumpStart = y
-jumpScale = 7
+jumpScale = 8
 jumpMax = y - (sprite_get_height(sprite_index) * jumpScale)
 jumpDouble = true
+jumping = false

@@ -2,7 +2,7 @@ switch jumpState {
     case JumpStates.idle :
         y = jumpStart
         jumpDouble = true
-        if keyboard_check_pressed(vk_space){
+        if jumping{
             jumpState = JumpStates.jumping
         }
     break
@@ -10,7 +10,7 @@ switch jumpState {
     case JumpStates.jumping :
         vspeed = -jumpSpeed
         if y <= jumpMax
-        || !keyboard_check(vk_space){
+        || !jumping{
             jumpState = JumpStates.falling
         }
     break
@@ -21,7 +21,7 @@ switch jumpState {
             jumpState = JumpStates.idle
         }
         
-        if keyboard_check(vk_space){
+        if jumping{
             if jumpDouble {
                 jumpState = JumpStates.jumping
                 jumpDouble = false
@@ -29,5 +29,6 @@ switch jumpState {
         }
     break
 }
-
-jumpAnim()
+if global.gamestate = GameState.playing {
+    jumpAnim()
+}
