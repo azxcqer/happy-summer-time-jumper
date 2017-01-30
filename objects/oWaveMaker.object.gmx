@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>canSpawn = false
-secondsToSpawn = choose(1, 1.5, 2, 2.5, 3, 3.5, 4)
+secondsToSpawn = 0
 spawnTimer = room_speed * secondsToSpawn 
 maxDifficultyToActivate = 5
 </string>
@@ -57,6 +57,7 @@ maxDifficultyToActivate = 5
 
 if spawnTimer &lt;= 0 {
     canSpawn = true
+    secondsToSpawn = choose(1.5, 2, 2.5, 3, 3.5, 4)
 }
 
 if canSpawn
