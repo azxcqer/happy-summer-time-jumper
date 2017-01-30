@@ -11,6 +11,7 @@
     <sprite>sprites\sPlayer_up</sprite>
     <sprite>sprites\sPlayer_down</sprite>
     <sprite>sprites\spWave</sprite>
+    <sprite>sprites\sStar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgBeach</background>
@@ -49,6 +50,7 @@
     <object>objects\oWaveMaker</object>
     <object>objects\oWave</object>
     <object>objects\cMovers</object>
+    <object>objects\oStar</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rSplash</room>
