@@ -50,7 +50,7 @@ event_inherited()
             <string>///wave vars
 playerX =  oPlayer.x
 sinkBuffer = sprite_get_width(sPlayer)
-sinkSpeed = 3
+sinkSpeed = 1.5
 crashing = false
 </string>
           </argument>
