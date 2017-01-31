@@ -57,7 +57,7 @@ maxDifficultyToActivate = 5
 
 if spawnTimer &lt;= 0 {
     canSpawn = true
-    secondsToSpawn = choose(1.5, 2, 2.5, 3, 3.5, 4)
+    secondsToSpawn = choose(1.5, 2, 2.5, 3, 3.5, 4) * ( 1 - ( global.waves / 100  ) )
 }
 
 if canSpawn
@@ -65,6 +65,7 @@ if canSpawn
     canSpawn = false
     spawnTimer = room_speed * secondsToSpawn 
     a = instance_create(x, y, oWave);
+    a.timed = secondsToSpawn
 }
 </string>
           </argument>
