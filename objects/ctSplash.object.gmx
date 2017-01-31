@@ -44,7 +44,7 @@ jumpInit()
 
 //globals
 global.sound = true
-global.test = true
+global.test = false
 </string>
           </argument>
         </arguments>
