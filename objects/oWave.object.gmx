@@ -130,7 +130,8 @@ if x &lt; playerX - sinkBuffer  {
             <kind>1</kind>
             <string>if crashing {
     global.waves += 1
- instance_destroy()
+    ctMain.scoreMulti = global.waves
+    instance_destroy()
 }
 </string>
           </argument>
