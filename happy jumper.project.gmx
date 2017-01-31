@@ -16,6 +16,7 @@
   <backgrounds name="background">
     <background>background\bgBeach</background>
     <background>background\bgTemp</background>
+    <background>background\bgMenu</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
